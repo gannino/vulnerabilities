@@ -11,7 +11,7 @@ High Severity Vulnerability Found in Linux GNU C Library Gives Attackers Control
 
 ### How to patch
 #### Mac OSX
-Install the latest security patches through the Apple App Store.  Update 'Security Updates 2015-001' should fix this problem.
+Install the latest security patches through the Apple App Store or by using the 'softwareupdate' command below.  Update 'Security Updates 2015-001' should fix this problem.
 
 ```shell
 sudo softwareupdate --install -r
