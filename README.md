@@ -11,11 +11,13 @@ High Severity Vulnerability Found in Linux GNU C Library Gives Attackers Control
 
 ### How to patch
 #### Mac OSX
-Install the latest security patches through the Apple App Store.  Update 'Security Updates 2015-003' should fix this problem.
+Install the latest security patches through the Apple App Store.  Update 'Security Updates 2015-001' should fix this problem.
 
 ```shell
 sudo softwareupdate --install -r
 ```
+
+Then reboot your machine.
 
 #### Ubuntu
 ```shell
@@ -30,7 +32,8 @@ reboot
 ```
 
 ### More information
-  * [Report](https://www.qualys.com/company/newsroom/news-releases/usa/2015-01-27-qualys-releases-security-advisory-ghost-vulnerability-linux-systems/?leadsource=23979237&mkt_tok=3RkMMJWWfF9wsRogvanNZKXonjHpfsX%2B6uwpUKeg38431UFwdcjKPmjr1YYGSMt0aPyQAgobGp5I5FEPQ7fYWa5pt6IJWQ%3D%3D)
+  * [Linux Report](https://www.qualys.com/company/newsroom/news-releases/usa/2015-01-27-qualys-releases-security-advisory-ghost-vulnerability-linux-systems/?leadsource=23979237&mkt_tok=3RkMMJWWfF9wsRogvanNZKXonjHpfsX%2B6uwpUKeg38431UFwdcjKPmjr1YYGSMt0aPyQAgobGp5I5FEPQ7fYWa5pt6IJWQ%3D%3D)
+  * [Mac OSX Report](http://lists.apple.com/archives/security-announce/2015/Jan/msg00003.html)
 
 ## ShellShock
 Exploits are already being written and rewritten for the 'Shellshock' Bash security vulnerability, which was announced just days ago, increasing the urgency for enterprises to remediate it quickly. 
