@@ -19,6 +19,7 @@ reboot
 #### RedHat/Fedora/CentOS
 ```shell
 yum update -y
+reboot
 ```
 
 ### More information
@@ -42,6 +43,7 @@ reboot
 #### RedHat/Fedora/CentOS
 ```shell
 yum update -y
+reboot
 ```
 
 ### More information
