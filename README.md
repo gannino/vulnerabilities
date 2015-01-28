@@ -16,6 +16,11 @@ apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get autoc
 reboot
 ```
 
+#### RedHat/Fedora/CentOS
+```shell
+yum update -y
+```
+
 ### More information
   * [Report](https://www.qualys.com/company/newsroom/news-releases/usa/2015-01-27-qualys-releases-security-advisory-ghost-vulnerability-linux-systems/?leadsource=23979237&mkt_tok=3RkMMJWWfF9wsRogvanNZKXonjHpfsX%2B6uwpUKeg38431UFwdcjKPmjr1YYGSMt0aPyQAgobGp5I5FEPQ7fYWa5pt6IJWQ%3D%3D)
 
@@ -32,6 +37,11 @@ Exploits are already being written and rewritten for the 'Shellshock' Bash secur
 ```shell
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get autoclean
 reboot
+```
+
+#### RedHat/Fedora/CentOS
+```shell
+yum update -y
 ```
 
 ### More information
