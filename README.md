@@ -13,6 +13,10 @@ High Severity Vulnerability Found in Linux GNU C Library Gives Attackers Control
 #### Mac OSX
 Install the latest security patches through the Apple App Store.  Update 'Security Updates 2015-003' should fix this problem.
 
+```shell
+sudo softwareupdate --install -r
+```
+
 #### Ubuntu
 ```shell
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get autoclean
